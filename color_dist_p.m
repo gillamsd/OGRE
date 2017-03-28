@@ -22,6 +22,11 @@ function color_dist_p(infile, nbmag, nbcolor, ng, maglower, magupper, clower, cu
 %     nbmag histograms to the screen
 %     color_dist.JPEG - A JPEG file containing the histograms.
 %
+% Scipts called
+%     mag2newcolor = fit_ridge_line_p(infile, data, use, dcl, dma,  clower, cupper, maglower, magupper)
+%     [mixtures, p_i, o, chisqr] = gmmem(X, mixtures, f, cbin, .1, sf)
+%     Z = plotGMM_1D(x, mixtures, p_i)
+%
 % Use gnuplot because the TeX interpreter does not work with fltk
 graphics_toolkit("gnuplot")
 
